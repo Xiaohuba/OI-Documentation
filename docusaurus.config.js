@@ -52,6 +52,10 @@ module.exports = {
               label:'OI-wiki',
               href:'https://OI-wiki.org',
             },
+            {
+              label:'CCF NOI',
+              href:'https://www.noi.cn',
+            },
           ]
         }
       ],

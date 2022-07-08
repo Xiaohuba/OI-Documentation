@@ -30,10 +30,19 @@ function Home() {
         </div>
       </header>
       <main>
-        <p>
-          OI（Olympiad in Informatics，信息学奥林匹克竞赛）在中国起源于 1984 年，是五大高中学科竞赛之一。
-          ICPC（International Collegiate Programming Contest，国际大学生程序设计竞赛）由 ICPC 基金会（ICPC Foundation）举办，是最具影响力的大学生计算机竞赛。由于以前 ACM 赞助这个竞赛，也有很多人习惯叫它 ACM 竞赛。
-        </p>
+        <div className={classnames('col col--4', styles.feature)}>
+          <h2>信息学赛事简介</h2>
+          <p>
+            OI（Olympiad in Informatics，信息学奥林匹克竞赛）在中国起源于 1984 年，是五大高中学科竞赛之一。
+          </p>
+          <p>
+            ICPC（International Collegiate Programming Contest，国际大学生程序设计竞赛）由 ICPC 基金会（ICPC Foundation）举办，是最具影响力的大学生计算机竞赛。由于以前 ACM 赞助这个竞赛，也有很多人习惯叫它 ACM 竞赛。
+          </p>
+          <p>
+            CCF CSP-JS 系CCF CSP非专业级别的软件能力认证（简称CCF CSP-JS），分两个级别，分别为CSP-J（入门组，Junior）和CSP-S（提高组，Senior），均涉及算法和编程。任何人都可以报名参加。
+            CSP-JS赛程分为初赛（笔试）和复赛（机试），即CSP-J1/S1与CSP-J2/S2。参赛者必须先参加第一轮，达到一定的分数者方可参加第二轮。
+          </p>
+        </div>
       </main>
     </Layout>
   );
