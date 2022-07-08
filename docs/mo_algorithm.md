@@ -1,3 +1,8 @@
+---
+id: mo_algorithm
+title: 莫队
+sidebar_label: 莫队
+---
 # 莫队
 
 ## 1. 普通莫队

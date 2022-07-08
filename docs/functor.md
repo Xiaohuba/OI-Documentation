@@ -1,3 +1,8 @@
+---
+id: functor
+title: 仿函数
+sidebar_label: 仿函数
+---
 # 仿函数
 ## Part1: 仿函数是什么？
 
