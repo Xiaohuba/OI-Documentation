@@ -73,7 +73,7 @@ function Home() {
         </div>
       </header>
       <main>
-        {features && features.length && (
+        {descriptions && descriptions.length && (
           <section className={styles.features}>
             <div className="container">
               <div className="row">
