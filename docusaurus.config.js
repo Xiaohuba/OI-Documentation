@@ -17,7 +17,7 @@ module.exports = {
       },
       links: [
         {
-          to: 'docs/doc1',
+          to: 'docs/computer',
           activeBasePath: 'docs',
           label: '笔记',
           position: 'left',
