@@ -1,3 +1,5 @@
+const math = require('remark-math');
+const katex = require('rehype-katex');
 module.exports = {
   title: 'OI-Documentation',
   tagline: 'OI 算法学习笔记总汇 ｜ lls 的编程课堂',
@@ -57,6 +59,8 @@ module.exports = {
           // Please change this to your repo.
           editUrl:
             'https://github.com/Xiaohuba/OI-Documentation/edit/main/docs/',
+          remarkPlugins: [math],
+          rehypePlugins: [katex],
         },
         blog: {
           showReadingTime: true,
@@ -67,7 +71,17 @@ module.exports = {
         theme: {
           customCss: require.resolve('./src/css/custom.css'),
         },
+        
       },
     ],
+  ],
+  stylesheets: [
+    {
+      href: 'https://cdn.jsdelivr.net/npm/katex@0.13.24/dist/katex.min.css',
+      type: 'text/css',
+      integrity:
+        'sha384-odtC+0UGzzFL/6PNoE8rX/SPcQDXBJ+uRepguP4QkPCm2LBxH3FA3y+fKSiJ+AmM',
+      crossorigin: 'anonymous',
+    },
   ],
 };
