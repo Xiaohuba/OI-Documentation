@@ -43,7 +43,15 @@ module.exports = {
             {
               label:'洛谷',
               href:'https://luogu.com.cn',
-            }
+            },
+            {
+              label:' CS 在线作图工具',
+              href:'https://csacademy.com/',
+            },
+            {
+              label:'OI-wiki',
+              href:'https://OI-wiki.org',
+            },
           ]
         }
       ],
