@@ -77,8 +77,8 @@ function Home() {
           <section className={styles.features}>
             <div className="container">
               <div className="row">
-                {features.map((props, idx) => (
-                  <Feature key={idx} {...props} />
+                {descriptions.map((props, idx) => (
+                  <DescriptionUI key={idx} {...props} />
                 ))}
               </div>
             </div>
