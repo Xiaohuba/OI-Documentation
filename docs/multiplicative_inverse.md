@@ -24,7 +24,7 @@ Xiaohuba 的温馨提示：不想看这部分群论上逆元的定义的读者�
 群 $(G, \cdot)$ 的幺元 $\mathbf{e}$ 定义为：若存在 $\mathbf{e} \in G$ 使得 $\forall a \in G,a \cdot  \mathbf{e}=a$ 成立，则称 $\mathbf{e}$ 是此群的幺元，
 $\mathbf{e}$ 有且仅有一个。
 
-例子：正整数加法群 $(\Z^{+},+)$ 的幺元 $\mathbf{e} = 0,(0+1=1,0+666=666 \cdots)$ 
+例子：正整数加法群 $(\mathbb{Z}^{+},+)$ 的幺元 $\mathbf{e} = 0,(0+1=1,0+666=666 \cdots)$ 
 
 ## 群的逆元
 
