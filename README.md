@@ -1,19 +1,9 @@
-# Docusaurus 2
+# OI-Documentation
+## 简述
+这是一个基于 `Docusaurus 2` 框架的不定时更新的 OI 笔记库。在这里，你可以看到数论推导，数据结构，算法模型，还有很多很多！
+## 作出贡献
+提出 Issue 或者 PR 均可。
+## 部署
+我们现在使用 vercel。
 
-This directory is a brief example of a [Docusaurus](https://v2.docusaurus.io) site that can be deployed to Vercel with zero configuration.
-
-## Deploy Your Own
-
-Deploy your own Docusaurus project with Vercel.
-
-[![Deploy with Vercel](https://vercel.com/button)](https://vercel.com/new/clone?repository-url=https://github.com/vercel/vercel/tree/main/docusaurus-2&template=docusaurus-2)
-
-_Live Example: https://docusaurus-2-template.vercel.app_
-
-### How We Created This Example
-
-To get started with Docusaurus on Vercel, you can use the [Docusaurus CLI](https://v2.docusaurus.io/docs/installation#scaffold-project-website) to initialize the project:
-
-```shell
-$ npx @docusaurus/init@next init my-website classic
-```
+有关在本地部署或其他问题，请参阅[ Docusaurus 官网](https://www.docusaurus.cn/)。

@@ -45,7 +45,7 @@ module.exports = {
               href:'https://luogu.com.cn',
             },
             {
-              label:' CS 在线作图工具',
+              label:'CS 在线作图工具',
               href:'https://csacademy.com/',
             },
             {
@@ -70,7 +70,7 @@ module.exports = {
           sidebarPath: require.resolve('./sidebars.js'),
           // Please change this to your repo.
           editUrl:
-            'https://github.com/Xiaohuba/OI-Documentation/edit/main/docs/',
+            'https://github.com/Xiaohuba/OI-Documentation/edit/main/',
           remarkPlugins: [math],
           rehypePlugins: [katex],
         },
@@ -78,7 +78,7 @@ module.exports = {
           showReadingTime: true,
           // Please change this to your repo.
           editUrl:
-            'https://github.com/Xiaohuba/OI-Documentation/edit/main/blog',
+            'https://github.com/Xiaohuba/OI-Documentation/edit/main/',
         },
         theme: {
           customCss: require.resolve('./src/css/custom.css'),
