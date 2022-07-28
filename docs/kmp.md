@@ -53,7 +53,7 @@ For(i,2,len_b) // p[1] 一定等于 0，故不用求
     p[i]=j;
 }
 ```
-![kmp2](/kmp2.gif)
+![kmp2](/img/kmp2.gif)
 有了 $p$ 数组，我们就可以快捷地**利用以求过的信息，快速完成计算啦**！
 
 > 假设在匹配 $b_j$ 和 $a_i$ 时失配，我们只要将 $j\leftarrow p[j],\ i\leftarrow i+1$ 之后继续进行计算即可！
@@ -70,4 +70,4 @@ For(i,1,len_a)
     }
 }
 ```
-![kmp1](/kmp1.gif)
+![kmp1](/img/kmp1.gif)
