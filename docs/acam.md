@@ -1,3 +1,9 @@
+---
+id: acam
+title: AC自动机
+sidebar_label: AC自动机
+---
+
 # 序
 在阅读本文前，请务必对 ``Trie`` （字典树）有一定的了解。
 
